@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+typedef struct node *link; // links are pointers to nodes
 // Define a structure for a node in a linked list
-typedef struct node *link;
 struct node {
     int item;  // The integer value stored in the node
     link next; // Pointer to the next node in the list
