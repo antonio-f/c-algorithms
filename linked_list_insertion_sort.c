@@ -38,13 +38,13 @@ int main() {
     // implement the insertion sort algorithm to sort the linked list
     // pointed to by 'a' and store the sorted list in the linked list
     // pointed to by 'b'
-    
     // initialize the sorted list, loop on each node in the unsorted list
     b = &headb; b->next = NULL;
     for (t = a->next; t != NULL; t = u)
     {   
         // insert t into the sorted list b, t points to the node to be inserted
-        u = t->next; // store the next pointer
+        // u stores the next pointer of t
+        u = t->next;
 
         // loop through the sorted list, if the next node's item is greater 
         // than t->item, stop and insert t before that node
@@ -54,7 +54,7 @@ int main() {
     }
 
     printf("\n");
-    // Print the sorted linked list
+    // print the sorted linked list
     struct node *currb = b->next;
     while(currb != NULL) {
     printf("%d ", currb->item);
@@ -63,7 +63,7 @@ int main() {
 
     printf("\n\n");
 
-    // // Free dynamically allocated memory
+    // // free dynamically allocated memory
     // current = a->next;
     // while(current != NULL) {
     //     struct node *temp = current;
