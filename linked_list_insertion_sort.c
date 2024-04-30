@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define N 10
+#define N 10 
 
 // list size is N
 
@@ -11,8 +11,9 @@ struct node {
 };
 
 int main() {
-    struct node heada, headb; // create two linked list heads
-    link t, u, x, a = &heada, b; // initialize pointers
+    // create two linked list heads and initialize pointers
+    struct node heada, headb;
+    link t, u, x, a = &heada, b; 
 
     // loop #1
     // build a linked list with one random number per node
@@ -38,11 +39,11 @@ int main() {
     pointed to by 'a' and store the sorted list in the linked list
     pointed to by 'b'
     */
-    b = &headb; b->next = NULL; // initialize the sorted list
-    for (t = a->next; t != NULL; t = u) // for each node in the unsorted list
+   // initialize the sorted list, loop on each node in the unsorted list
+    b = &headb; b->next = NULL;
+    for (t = a->next; t != NULL; t = u)
     {   
-        // insert t into the sorted list b
-        // t points to the node to be inserted
+        // insert t into the sorted list b, t points to the node to be inserted
         u = t->next; // store the next pointer
 
         // loop through the sorted list, if the next node's item is greater 
