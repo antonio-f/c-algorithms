@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #define N 10
 
+// list size is N
+
 typedef struct node *link; // links are pointers to nodes
 struct node {
     int item;  // the integer value stored in the node
