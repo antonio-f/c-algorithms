@@ -34,12 +34,12 @@ int main() {
 
     printf("\n\n");
 
-    /* loop #2
-    implement the insertion sort algorithm to sort the linked list
-    pointed to by 'a' and store the sorted list in the linked list
-    pointed to by 'b'
-    */
-   // initialize the sorted list, loop on each node in the unsorted list
+    // loop #2
+    // implement the insertion sort algorithm to sort the linked list
+    // pointed to by 'a' and store the sorted list in the linked list
+    // pointed to by 'b'
+    
+    // initialize the sorted list, loop on each node in the unsorted list
     b = &headb; b->next = NULL;
     for (t = a->next; t != NULL; t = u)
     {   
