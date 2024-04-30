@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define N 10 // list size
+#define N 10
 
 typedef struct node *link; // links are pointers to nodes
 struct node {
