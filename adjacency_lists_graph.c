@@ -50,3 +50,22 @@ int main()
     print_adjacency_lists(adj);
 }
 
+/* Usage: 
+gcc -o adjacency_lists_graph adjacency_lists_graph.c
+./adjacency_lists_graph
+[example - input]
+5 4 
+0 1
+0 2
+1 2
+1 3
+2 3
+.
+[output]
+Adjacency Lists:
+0: 2 1 
+1: 3 2 0 
+2: 3 1 0 
+3: 2 1 
+4: 5 
+*/
