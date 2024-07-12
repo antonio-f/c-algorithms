@@ -1,3 +1,5 @@
+// Merge Sort - O(n*log(n))
+
 #include <stdio.h>
 #include <stdlib.h>
 
