@@ -1,4 +1,4 @@
-// Insertion Sort
+// Insertion Sort - O(n^2)
 
 #include <stdio.h>
 #include <stdlib.h>
