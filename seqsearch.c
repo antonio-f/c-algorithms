@@ -1,4 +1,5 @@
-// Sequential search
+// Sequential search - O(n)
+
 #include <stdio.h>
 
 int search(int a[], int v, int l, int r)
