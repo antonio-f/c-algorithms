@@ -1,4 +1,5 @@
-// Binary Search
+// Binary Search - O(log n) on sorted arrays
+
 #include <stdio.h>
 #include <stdlib.h>
 #define COMPARE(x, y) ((x) < (y)) ? -1: ((x) == (y))? 0: 1
